@@ -2,4 +2,4 @@ Este es un archivo de ejemplo
 
 Estas tres primera lineas estaban escritas inicialmente
 
-Esta es la copia local
+Esta es la copia unión del repositorio local y de GitHub
