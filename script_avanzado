@@ -1,0 +1,11 @@
+#!/bin/bash
+
+line_number=0
+
+IFS="\n"
+while read i ; do
+    line_number=$((line_number + 1))
+    if [ $(( line_number % 7 )) = 0 ] ; then
+        echo "$i"
+    fi
+done < "$1" > new_"$1"

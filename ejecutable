@@ -1,0 +1,11 @@
+#!/bin/bash
+
+t=$( wc -l $1 | cut -d ' ' -f1 ) 
+x=$(( $t/7 ))
+
+split -l $x $1 dividido_
+
+cp dividido_aa new"$1"
+echo "se ha creado el fichero recortado de "$1""
+
+
