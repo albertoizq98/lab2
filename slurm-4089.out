@@ -1,0 +1,6 @@
+Utilizando el script ejecutable, voy a llevar a cabo la modificación de los ficheros
+se ha creado el fichero recortado de Sample1.fastq
+se ha creado el fichero recortado de Sample4.fastq
+se ha creado el fichero recortado de Sample3.fastq
+se ha creado el fichero recortado de Sample2.fastq
+los archivos recortados pasaran a llamarse new_y el nombre del archivo anterior
